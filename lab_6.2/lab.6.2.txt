@@ -1,0 +1,100 @@
+package mypackage;
+
+1)public class One {
+    // Код класу One
+}
+
+public class Two {
+    // Код класу Two
+}
+
+public class Three {
+    // Код класу Three
+}
+
+2)package mypackage;
+
+public class One {
+    int number;
+    double value;
+    String name; // Приклад змінної типу String
+
+    // Конструктор класу One
+    public One() {
+        // Конструктор без параметрів
+    }
+}
+
+public class Two {
+    int age;
+    double weight;
+    boolean isStudent; // Приклад змінної типу boolean
+
+    // Конструктор класу Two
+    public Two() {
+        // Конструктор без параметрів
+    }
+}
+
+public class Three {
+    double height;
+    int quantity;
+    char grade; // Приклад змінної типу char
+
+    // Конструктор класу Three
+    public Three() {
+        // Конструктор без параметрів
+    }
+}
+
+3)package mypackage;
+
+public class One {
+    int number;
+    double value;
+    String name;
+
+    // Конструктор класу One з параметрами
+    public One(int number, double value, String name) {
+        this.number = number;
+        this.value = value;
+        this.name = name;
+    }
+}
+
+public class Two {
+    int age;
+    double weight;
+    boolean isStudent;
+
+    // Конструктор класу Two з параметрами
+    public Two(int age, double weight, boolean isStudent) {
+        this.age = age;
+        this.weight = weight;
+        this.isStudent = isStudent;
+    }
+}
+
+public class Three {
+    double height;
+    int quantity;
+    char grade;
+
+    // Конструктор класу Three з параметрами
+    public Three(double height, int quantity, char grade) {
+        this.height = height;
+        this.quantity = quantity;
+        this.grade = grade;
+    }
+}
+
+4)public class Main {
+    public static void main(String[] args) {
+        One one = new One(10, 3.14, "Test");
+        Two two = new Two(20, 65.5, true);
+        Three three = new Three(1.8, 5, 'A');
+
+        // Використання екземплярів класів
+        // ...
+    }
+}
